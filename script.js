@@ -1,9 +1,8 @@
-let myObj = {
-    name: "John",
+// your JS code here
 
-    getKeys() {
+Object.defineProperty(Object.prototype, "getKeys", {
+    value: function () {
         return Object.keys(this);
-    }
-};
-
-console.log(myObj.getKeys());
+    },
+    enumerable: false
+});
