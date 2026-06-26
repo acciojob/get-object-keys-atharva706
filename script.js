@@ -9,4 +9,4 @@ function getKeys(student) {
     return Object.keys(student);
 }
 
-console.log(getKeys(student));
+//console.log(getKeys(student));
