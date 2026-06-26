@@ -1,12 +1,9 @@
-// your JS code here. If required.
-let student = {
-    name: "Atharva",
-    surname: "Kulkarni",
-    age: 22
+let myObj = {
+    name: "John",
+
+    getKeys() {
+        return Object.keys(this);
+    }
 };
 
-function getKeys(student) {
-    return Object.keys(student);
-}
-
-//console.log(getKeys(student));
+console.log(myObj.getKeys());
