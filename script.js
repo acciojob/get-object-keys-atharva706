@@ -1,14 +1,12 @@
-//your JS code here. If required.
+// your JS code here. If required.
 let student = {
-	name : "Atharva",
-	surname : "Coolkarni",
-	age :  22
-}
+    name: "Atharva",
+    surname: "Kulkarni",
+    age: 22
+};
 
 function getKeys(student) {
-	let val = []
-		val.push(Object.keys(student))
-	return val;
+    return Object.keys(student);
 }
-	
-}
+
+console.log(getKeys(student));
